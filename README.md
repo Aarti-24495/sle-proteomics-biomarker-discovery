@@ -1,25 +1,39 @@
-sle-proteomics-biomarker-discovery/
-│
-├── data/
-│   ├── synthetic_proteomics_matrix.csv
-│   ├── synthetic_clinical_metadata.csv
-│   └── README.md
-│
-├── notebooks/
-│   └── 01_proteomics_biomarker_analysis.ipynb
-│
-├── results/
-│   ├── differential_expression_SLE_vs_control.csv
-│   ├── biomarker_auc_ranking.csv
-│   ├── biomarker_activity_correlations.csv
-│   ├── analysis_summary.json
-│   └── figures/
-│       ├── 01_volcano_plot.png
-│       ├── 02_candidate_biomarker_heatmap.png
-│       ├── 03_candidate_boxplots.png
-│       └── 04_roc_curves.png
-│
-├── src/
-│   ├── analysis.py
-│   ├── visualization.py
-│   └── run_analysis.py
+SLE Proteomics Biomarker Discovery
+
+Proteomic Biomarker Discovery in Systemic Lupus Erythematosus and Lupus Nephritis
+
+A reproducible Python workflow for **proteomic data analysis, differential protein expression, candidate biomarker discovery, ROC/AUC evaluation, and disease-activity correlation in synthetic SLE and lupus nephritis datasets.
+
+Important: All data in this repository are synthetic and created for educational, research, and portfolio purposes. No patient-identifiable or clinical patient data are included.
+
+ Project Overview
+
+Systemic lupus erythematosus (SLE) is a heterogeneous autoimmune disease characterized by immune dysregulation and variable patterns of organ involvement.
+
+**Lupus nephritis (LN) is one of the major organ manifestations of SLE and is associated with renal inflammation, immune-complex deposition, complement activation, and progressive tissue injury.
+
+Proteomic profiling provides a high-dimensional approach for identifying proteins associated with disease status and potentially useful biomarkers.
+
+This project demonstrates a complete computational workflow starting from a synthetic proteomics matrix and progressing through:
+
+Proteomics Data
+      │
+      ▼
+Data Quality / Exploration
+      │
+      ▼
+Differential Protein Expression
+      │
+      ▼
+Candidate Biomarker Selection
+      │
+      ├───────────────┐
+      ▼               ▼
+   ROC / AUC      Correlation
+      │               │
+      └───────┬───────┘
+              ▼
+       Biomarker Evaluation
+              │
+              ▼
+      Visualizations & Results
