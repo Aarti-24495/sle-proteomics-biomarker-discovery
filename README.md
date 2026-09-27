@@ -2,7 +2,7 @@ SLE Proteomics Biomarker Discovery
 
 Proteomic Biomarker Discovery in Systemic Lupus Erythematosus and Lupus Nephritis
 
-A reproducible Python workflow for **proteomic data analysis, differential protein expression, candidate biomarker discovery, ROC/AUC evaluation, and disease-activity correlation in synthetic SLE and lupus nephritis datasets.
+A reproducible Python workflow for proteomic data analysis, differential protein expression, candidate biomarker discovery, ROC/AUC evaluation, and disease-activity correlation in synthetic SLE and lupus nephritis datasets.
 
 Important: All data in this repository are synthetic and created for educational, research, and portfolio purposes. No patient-identifiable or clinical patient data are included.
 
